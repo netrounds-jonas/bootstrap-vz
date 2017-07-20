@@ -356,3 +356,5 @@ def linkcode_resolve(domain, info):
         except IOError:
             pass
     return '{baseurl}/blob/{commit}/{path}'.format(**fmt_args)
+
+# vi: ts=4 expandtab

@@ -12,3 +12,5 @@ def resolve_tasks(taskset, manifest):
                     tasks.CheckPlaybookPath,
                     tasks.RunAnsiblePlaybook,
                     ])
+
+# vi: ts=4 expandtab

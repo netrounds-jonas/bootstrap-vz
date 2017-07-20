@@ -83,3 +83,5 @@ class RunAnsiblePlaybook(Task):
         # Run and remove the inventory file
         log_check_call(cmd)
         os.remove(inventory)
+
+# vi: ts=4 expandtab

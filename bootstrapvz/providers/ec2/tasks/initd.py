@@ -18,3 +18,5 @@ class AddEC2InitScripts(Task):
         init_scripts_dir = os.path.join(assets, 'init.d')
         for name, path in init_scripts.iteritems():
             info.initd['install'][name] = os.path.join(init_scripts_dir, path)
+
+# vi: ts=4 expandtab

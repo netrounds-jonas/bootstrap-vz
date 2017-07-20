@@ -112,3 +112,5 @@ class ExcludePackagesInBootstrap(Task):
         info.exclude_packages.update(
             set(info.manifest.bootstrapper['exclude_packages'])
         )
+
+# vi: ts=4 expandtab

@@ -14,3 +14,5 @@ class LocalConnection(object):
     def run(self, *args, **kwargs):
         from bootstrapvz.base.main import run
         return run(*args, **kwargs)
+
+# vi: ts=4 expandtab

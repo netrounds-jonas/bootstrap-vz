@@ -43,3 +43,5 @@ class NoPartitions(object):
     def __setstate__(self, state):
         for key in state:
             self.__dict__[key] = state[key]
+
+# vi: ts=4 expandtab

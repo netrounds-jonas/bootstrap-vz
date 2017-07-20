@@ -11,3 +11,5 @@ def resolve_tasks(taskset, manifest):
     if 'assets' in manifest.plugins['chef']:
         taskset.add(tasks.CheckAssetsPath)
         taskset.add(tasks.CopyChefAssets)
+
+# vi: ts=4 expandtab

@@ -9,3 +9,5 @@ def resolve_tasks(taskset, manifest):
     taskset.add(tasks.SetAptProxy)
     if not manifest.plugins['apt_proxy'].get('persistent', False):
         taskset.add(tasks.RemoveAptProxy)
+
+# vi: ts=4 expandtab

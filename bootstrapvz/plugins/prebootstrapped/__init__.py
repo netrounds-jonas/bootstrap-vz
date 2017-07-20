@@ -68,3 +68,5 @@ def resolve_rollback_tasks(taskset, manifest, completed, counter_task):
         counter_task(taskset, tasks.CreateFromFolder, folder.Delete)
     else:
         counter_task(taskset, tasks.CreateFromImage, volume.Delete)
+
+# vi: ts=4 expandtab

@@ -41,3 +41,5 @@ def validate_manifest(data, validator, error):
 
             if status != 0:
                 error('apt.conf(5) syntax error', ['packages', 'apt.conf.d', name])
+
+# vi: ts=4 expandtab

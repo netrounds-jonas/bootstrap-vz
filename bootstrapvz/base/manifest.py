@@ -154,3 +154,5 @@ class Manifest(object):
         self.load_modules()
         self.validate()
         self.parse()
+
+# vi: ts=4 expandtab

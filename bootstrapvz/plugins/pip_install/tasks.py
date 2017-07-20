@@ -23,3 +23,5 @@ class PipInstallCommand(Task):
         pip_install_command = ['chroot', info.root, 'pip', 'install']
         pip_install_command.extend(packages)
         log_check_call(pip_install_command)
+
+# vi: ts=4 expandtab

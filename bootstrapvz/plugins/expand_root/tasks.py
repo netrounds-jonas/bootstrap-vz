@@ -56,3 +56,5 @@ class InstallExpandRootScripts(Task):
 
         # Enable systemd service
         log_check_call(['chroot', info.root,  'systemctl', 'enable', 'expand-root.service'])
+
+# vi: ts=4 expandtab

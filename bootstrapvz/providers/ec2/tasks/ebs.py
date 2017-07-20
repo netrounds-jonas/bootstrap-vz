@@ -36,3 +36,5 @@ class Snapshot(Task):
             tags = [{'Key': k, 'Value': v} for k, v in formatted_tags.items()]
             info._ec2['connection'].create_tags(Resources=[info._ec2['snapshot']],
                                                 Tags=tags)
+
+# vi: ts=4 expandtab

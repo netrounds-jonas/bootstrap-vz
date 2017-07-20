@@ -55,3 +55,5 @@ def resolve_tasks(taskset, manifest):
 def resolve_rollback_tasks(taskset, manifest, completed, counter_task):
     counter_task(taskset, tasks.mounts.AddFolderMounts, tasks.mounts.RemoveFolderMounts)
     counter_task(taskset, tasks.dpkg.CreateBootstrapFilterScripts, tasks.dpkg.DeleteBootstrapFilterScripts)
+
+# vi: ts=4 expandtab

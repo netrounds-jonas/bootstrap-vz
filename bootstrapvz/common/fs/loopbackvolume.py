@@ -27,3 +27,5 @@ class LoopbackVolume(Volume):
         from os import remove
         remove(self.image_path)
         del self.image_path
+
+# vi: ts=4 expandtab

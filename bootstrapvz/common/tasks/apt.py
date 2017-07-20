@@ -262,3 +262,5 @@ class EnableDaemonAutostart(Task):
     def run(cls, info):
         os.remove(os.path.join(info.root, 'usr/sbin/policy-rc.d'))
         os.remove(os.path.join(info.root, 'sbin/initctl'))
+
+# vi: ts=4 expandtab

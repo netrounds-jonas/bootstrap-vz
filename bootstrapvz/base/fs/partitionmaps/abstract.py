@@ -120,3 +120,5 @@ class AbstractPartitionMap(FSMProxy):
         # Call unmap on all partitions
         for partition in self.partitions:
             partition.unmap()
+
+# vi: ts=4 expandtab

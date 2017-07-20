@@ -87,3 +87,5 @@ def read_from_socket(socket_path, termination_string, timeout, read_timeout=0.5)
 @contextmanager
 def noop(*args, **kwargs):
     yield
+
+# vi: ts=4 expandtab

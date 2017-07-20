@@ -9,3 +9,5 @@ def validate_manifest(data, validator, error):
 def resolve_tasks(taskset, manifest):
     import tasks
     taskset.update([tasks.DebconfSetSelections])
+
+# vi: ts=4 expandtab

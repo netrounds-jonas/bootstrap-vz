@@ -57,3 +57,5 @@ class CompareImageTarballs(Task):
     def run(cls, info):
         info._oracle['client'].compare_files()
         os.remove(info._oracle['client'].target_file_path)
+
+# vi: ts=4 expandtab

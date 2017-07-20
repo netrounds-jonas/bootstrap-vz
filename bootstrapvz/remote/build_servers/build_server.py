@@ -25,3 +25,5 @@ class BuildServer(object):
             if 'region' not in manifest_data['image']:
                 manifest_data['image']['region'] = self.build_settings['s3-region']
         return manifest_data
+
+# vi: ts=4 expandtab

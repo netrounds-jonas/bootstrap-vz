@@ -100,3 +100,5 @@ def transform_github_links(app, doctree, fromdocname):
             node['refuri'] = docs_link
         else:
             node['refuri'] = os.path.relpath(docs_link, os.path.dirname(fromdocname))
+
+# vi: ts=4 expandtab

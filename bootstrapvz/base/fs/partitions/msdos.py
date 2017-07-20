@@ -14,3 +14,5 @@ class MSDOSPartition(BasePartition):
         """
         self.name = name
         super(MSDOSPartition, self).__init__(size, filesystem, format_command, mountopts, previous)
+
+# vi: ts=4 expandtab

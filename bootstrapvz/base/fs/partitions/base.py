@@ -136,3 +136,5 @@ class BasePartition(AbstractPartition):
         self.device_path = None
         if e.src == 'formatted':
             self.unlink_uuid()
+
+# vi: ts=4 expandtab

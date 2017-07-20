@@ -21,3 +21,5 @@ class VirtualHardDisk(QEMUVolume):
             import uuid
             self.uuid = uuid.uuid4()
         return self.uuid
+
+# vi: ts=4 expandtab

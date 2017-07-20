@@ -49,3 +49,5 @@ class DetermineKernelVersion(Task):
         kernels = map(get_kernel_version, vmlinuz_paths)
         info.kernel_version = sorted(kernels, reverse=True)[0]
         logging.getLogger(__name__).debug('Kernel version is {version}'.format(version=info.kernel_version))
+
+# vi: ts=4 expandtab

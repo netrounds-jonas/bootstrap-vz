@@ -36,3 +36,5 @@ class SetRegion(Task):
     @classmethod
     def run(cls, info):
         info._ec2['region'] = info.manifest.provider['region']
+
+# vi: ts=4 expandtab

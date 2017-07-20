@@ -31,3 +31,5 @@ def unmounted(volume):
     else:
         yield
     p_map.root.mount(destination=root_dir)
+
+# vi: ts=4 expandtab

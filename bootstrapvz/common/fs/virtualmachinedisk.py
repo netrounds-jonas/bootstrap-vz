@@ -25,3 +25,5 @@ class VirtualMachineDisk(QEMUVolume):
         #     import re
         #     matches = re.search('ddb.uuid.image="(?P<uuid>[^"]+)"', line)
         #     return uuid.UUID(hex=matches.group('uuid'))
+
+# vi: ts=4 expandtab

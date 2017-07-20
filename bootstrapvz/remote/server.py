@@ -128,3 +128,5 @@ class Server(object):
         if isinstance(result, Exception):
             raise result
         return result
+
+# vi: ts=4 expandtab

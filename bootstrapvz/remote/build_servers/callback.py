@@ -35,3 +35,5 @@ class CallbackServer(object):
         record.extra = getattr(record, 'extra', {})
         record.extra['source'] = 'remote'
         log.handle(record)
+
+# vi: ts=4 expandtab

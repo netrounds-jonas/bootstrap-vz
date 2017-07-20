@@ -21,3 +21,5 @@ def resolve_tasks(taskset, manifest):
         taskset.add(tasks.InstallModules)
     if manifest.plugins['puppet'].get('enable_agent', False):
         taskset.add(tasks.EnableAgent)
+
+# vi: ts=4 expandtab

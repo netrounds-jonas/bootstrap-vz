@@ -15,3 +15,5 @@ class DisableIPv6(Task):
         with open(network_configuration_path, 'w') as config_file:
             print >>config_file, "net.ipv6.conf.all.disable_ipv6 = 1"
             print >>config_file, "net.ipv6.conf.lo.disable_ipv6 = 0"
+
+# vi: ts=4 expandtab

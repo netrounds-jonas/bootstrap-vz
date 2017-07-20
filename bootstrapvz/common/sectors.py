@@ -176,3 +176,5 @@ class Sectors(object):
     def __setstate__(self, state):
         self.sector_size = state['sector_size']
         self.bytes = state['bytes']
+
+# vi: ts=4 expandtab

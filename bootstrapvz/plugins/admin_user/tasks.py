@@ -138,3 +138,5 @@ class AdminUserPublicKeyEC2(Task):
         getcreds_path = os.path.join(info.root, 'etc/init.d/ec2-get-credentials')
         username = info.manifest.plugins['admin_user']['username']
         sed_i(getcreds_path, "username='root'", "username='{username}'".format(username=username))
+
+# vi: ts=4 expandtab

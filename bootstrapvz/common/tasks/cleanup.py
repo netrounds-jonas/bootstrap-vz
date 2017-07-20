@@ -30,3 +30,5 @@ class CleanTMP(Task):
         log = os.path.join(info.root, 'var/log/')
         os.remove(os.path.join(log, 'bootstrap.log'))
         os.remove(os.path.join(log, 'dpkg.log'))
+
+# vi: ts=4 expandtab

@@ -24,3 +24,5 @@ def test_manifest_generator():
     for manifest_path in manifest_paths:
         dry_run.description = "Dry-running %s" % os.path.relpath(manifest_path, manifests)
         yield dry_run, manifest_path
+
+# vi: ts=4 expandtab

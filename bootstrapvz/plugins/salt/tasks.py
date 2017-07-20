@@ -58,3 +58,5 @@ class SetSaltGrains(Task):
         with open(grains_file, 'a') as f:
             for g in grains:
                 f.write('%s: %s\n' % (g, grains[g]))
+
+# vi: ts=4 expandtab

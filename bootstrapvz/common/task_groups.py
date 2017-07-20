@@ -221,3 +221,5 @@ def get_standard_rollback_tasks(completed):
         if task in completed and counter not in completed:
             rollback_tasks.add(counter)
     return rollback_tasks
+
+# vi: ts=4 expandtab

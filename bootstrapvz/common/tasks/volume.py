@@ -29,3 +29,5 @@ class Delete(Task):
     @classmethod
     def run(cls, info):
         info.volume.delete()
+
+# vi: ts=4 expandtab

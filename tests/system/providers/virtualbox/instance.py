@@ -119,3 +119,5 @@ def lock(machine, session):
 
 class LockingException(Exception):
     pass
+
+# vi: ts=4 expandtab

@@ -149,3 +149,5 @@ def resolve_rollback_tasks(taskset, manifest, completed, counter_task):
     counter_task(taskset, tasks.ebs.Create, volume.Delete)
     counter_task(taskset, tasks.ebs.Attach, volume.Detach)
     counter_task(taskset, tasks.ami.BundleImage, tasks.ami.RemoveBundle)
+
+# vi: ts=4 expandtab

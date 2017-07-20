@@ -8,3 +8,5 @@ def resolve_tasks(taskset, manifest):
     taskset.add(tasks.AddNtpPackage)
     if manifest.plugins['ntp'].get('servers', False):
         taskset.add(tasks.SetNtpServers)
+
+# vi: ts=4 expandtab

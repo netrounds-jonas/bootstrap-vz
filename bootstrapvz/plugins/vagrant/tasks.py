@@ -231,3 +231,5 @@ class RemoveVagrantBoxDir(Task):
     def run(cls, info):
         shutil.rmtree(info._vagrant['folder'])
         del info._vagrant['folder']
+
+# vi: ts=4 expandtab

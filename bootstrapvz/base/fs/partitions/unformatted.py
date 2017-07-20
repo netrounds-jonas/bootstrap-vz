@@ -18,3 +18,5 @@ class UnformattedPartition(BasePartition):
         :param BasePartition previous: The partition that preceeds this one
         """
         super(UnformattedPartition, self).__init__(size, None, None, None, previous)
+
+# vi: ts=4 expandtab

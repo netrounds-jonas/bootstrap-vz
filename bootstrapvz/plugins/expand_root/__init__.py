@@ -9,3 +9,5 @@ def validate_manifest(data, validator, error):
 def resolve_tasks(taskset, manifest):
     taskset.add(tasks.InstallGrowpart)
     taskset.add(tasks.InstallExpandRootScripts)
+
+# vi: ts=4 expandtab

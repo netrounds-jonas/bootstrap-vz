@@ -19,3 +19,5 @@ class MoveImage(Task):
         import logging
         log = logging.getLogger(__name__)
         log.info('The volume image has been moved to ' + destination)
+
+# vi: ts=4 expandtab

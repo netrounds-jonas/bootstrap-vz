@@ -93,3 +93,5 @@ class Source(object):
                 .format(type=self.type, options=options,
                         uri=self.uri, distribution=self.distribution,
                         components=components))
+
+# vi: ts=4 expandtab

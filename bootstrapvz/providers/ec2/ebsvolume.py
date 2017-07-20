@@ -64,3 +64,5 @@ class EBSVolume(Volume):
         waiter.wait(SnapshotIds=[self.snap_id],
                     Filters=[{'Name': 'status', 'Values': ['completed']}])
         return self.snap_id
+
+# vi: ts=4 expandtab

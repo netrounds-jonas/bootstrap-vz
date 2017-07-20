@@ -92,3 +92,5 @@ class MSDOSPartitionMap(AbstractPartitionMap):
         # Create the partitions
         for partition in self.partitions:
             partition.create(volume)
+
+# vi: ts=4 expandtab

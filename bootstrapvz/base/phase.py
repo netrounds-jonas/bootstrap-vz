@@ -33,3 +33,5 @@ class Phase(object):
         :rtype: str
         """
         return self.name
+
+# vi: ts=4 expandtab

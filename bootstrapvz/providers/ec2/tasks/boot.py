@@ -82,3 +82,5 @@ class LinkGrubConfig(Task):
     def run(cls, info):
         log_check_call(['chroot', info.root,
                         'ln', '--symbolic', '/boot/grub/grub.cfg', '/boot/grub/menu.lst'])
+
+# vi: ts=4 expandtab

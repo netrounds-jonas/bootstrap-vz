@@ -58,3 +58,5 @@ class RemoveAptProxy(Task):
     @classmethod
     def run(cls, info):
         os.remove(os.path.join(info.root, 'etc/apt/apt.conf.d/02proxy'))
+
+# vi: ts=4 expandtab

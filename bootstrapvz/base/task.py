@@ -34,3 +34,5 @@ class Task(object):
         :param BootstrapInformation info: The bootstrap info object.
         """
         pass
+
+# vi: ts=4 expandtab

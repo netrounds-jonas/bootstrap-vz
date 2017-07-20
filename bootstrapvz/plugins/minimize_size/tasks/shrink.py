@@ -43,3 +43,5 @@ class ShrinkVolume(Task):
         perm = os.stat(info.volume.image_path).st_mode & 0777
         log_check_call(['/usr/bin/vmware-vdiskmanager', '-k', info.volume.image_path])
         os.chmod(info.volume.image_path, perm)
+
+# vi: ts=4 expandtab

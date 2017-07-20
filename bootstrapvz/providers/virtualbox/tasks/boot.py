@@ -11,3 +11,5 @@ class AddVirtualConsoleGrubOutputDevice(Task):
     @classmethod
     def run(cls, info):
         info.grub_config['GRUB_CMDLINE_LINUX_DEFAULT'].append('console=tty0')
+
+# vi: ts=4 expandtab

@@ -125,3 +125,5 @@ def test_imod_int():
 def test_convert_int():
     secsize = 512
     eq_(pow(1024, 3) / secsize, int(Sectors('1GiB', secsize)))
+
+# vi: ts=4 expandtab

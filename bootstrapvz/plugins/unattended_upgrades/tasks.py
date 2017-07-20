@@ -37,3 +37,5 @@ class EnablePeriodicUpgrades(Task):
                             .format(update_interval=update_interval,
                                     download_interval=download_interval,
                                     upgrade_interval=upgrade_interval)))
+
+# vi: ts=4 expandtab

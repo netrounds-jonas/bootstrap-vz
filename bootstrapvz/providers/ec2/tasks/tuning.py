@@ -39,3 +39,5 @@ class BlackListModules(Task):
         with open(blacklist_path, 'a') as blacklist:
             blacklist.write(('blacklist i2c_piix4\n'
                              'blacklist psmouse\n'))
+
+# vi: ts=4 expandtab

@@ -25,3 +25,5 @@ def resolve_tasks(taskset, manifest):
     taskset.add(tasks.EnableMemoryCgroup)
     if len(manifest.plugins['docker_daemon'].get('pull_images', [])) > 0:
         taskset.add(tasks.PullDockerImages)
+
+# vi: ts=4 expandtab

@@ -13,3 +13,5 @@ def resolve_tasks(taskset, manifest):
     if ('files' in manifest.plugins['file_copy']):
         taskset.add(tasks.ValidateFiles)
         taskset.add(tasks.FileCopyCommand)
+
+# vi: ts=4 expandtab

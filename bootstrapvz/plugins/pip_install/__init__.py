@@ -9,3 +9,5 @@ def validate_manifest(data, validator, error):
 def resolve_tasks(taskset, manifest):
     taskset.add(tasks.AddPipPackage)
     taskset.add(tasks.PipInstallCommand)
+
+# vi: ts=4 expandtab

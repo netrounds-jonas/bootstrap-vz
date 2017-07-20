@@ -128,3 +128,5 @@ def connect_pyro(host, port):
             connection._pyroRelease()
         else:
             log.warn('Unable to stop RPC daemon, it might still be running on the server')
+
+# vi: ts=4 expandtab

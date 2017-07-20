@@ -64,3 +64,5 @@ class AppendManifestDockerfile(Task):
     @classmethod
     def run(cls, info):
         info._docker['dockerfile'].extend(info.manifest.provider['dockerfile'])
+
+# vi: ts=4 expandtab

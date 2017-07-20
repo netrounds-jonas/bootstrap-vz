@@ -138,3 +138,5 @@ def copy_tree(from_path, to_path):
 def rel_path(base, path):
     import os.path
     return os.path.normpath(os.path.join(os.path.dirname(base), path))
+
+# vi: ts=4 expandtab

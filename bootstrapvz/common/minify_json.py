@@ -110,3 +110,5 @@ something else */"blah"
     assert test_json(test4) == json.loads(test4_res),'Failed test 4'
     if __debug__: # Don't print passed message if the asserts didn't run
         print 'Passed all tests'
+
+# vi: ts=4 expandtab

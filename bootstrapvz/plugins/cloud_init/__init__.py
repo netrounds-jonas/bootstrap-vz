@@ -35,3 +35,5 @@ def resolve_tasks(taskset, manifest):
     taskset.discard(initd.AdjustExpandRootScript)
     taskset.discard(initd.AdjustGrowpartWorkaround)
     taskset.discard(ssh.AddSSHKeyGeneration)
+
+# vi: ts=4 expandtab

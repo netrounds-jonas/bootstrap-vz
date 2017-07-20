@@ -11,3 +11,5 @@ class TriggerRollback(Task):
     def run(cls, info):
         from ..exceptions import TaskError
         raise TaskError('Trigger rollback')
+
+# vi: ts=4 expandtab

@@ -25,3 +25,5 @@ class Delete(Task):
     def run(cls, info):
         info.volume.delete()
         del info.root
+
+# vi: ts=4 expandtab

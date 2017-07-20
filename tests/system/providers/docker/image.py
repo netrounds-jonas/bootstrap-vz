@@ -53,3 +53,5 @@ class Container(object):
         log.debug('Deleting container')
         log_check_call(['docker', 'rm', self.container_id], env=self.docker_env)
         del self.container_id
+
+# vi: ts=4 expandtab

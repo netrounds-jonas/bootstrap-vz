@@ -25,3 +25,5 @@ class VirtualBoxImage(object):
         import os
         os.remove(self.image_path)
         del self.image_path
+
+# vi: ts=4 expandtab

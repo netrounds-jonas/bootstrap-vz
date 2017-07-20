@@ -13,3 +13,5 @@ class VirtualDiskImage(QEMUVolume):
         with open(self.image_path) as image:
             image.seek(392)
             return uuid.UUID(bytes_le=image.read(16))
+
+# vi: ts=4 expandtab

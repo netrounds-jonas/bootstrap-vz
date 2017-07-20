@@ -30,3 +30,5 @@ def resolve_tasks(taskset, manifest):
 
 def resolve_rollback_tasks(taskset, manifest, completed, counter_task):
     taskset.update(task_groups.get_standard_rollback_tasks(completed))
+
+# vi: ts=4 expandtab

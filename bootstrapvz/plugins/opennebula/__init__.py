@@ -7,3 +7,5 @@ def resolve_tasks(taskset, manifest):
     if manifest.release == wheezy:
         taskset.add(apt.AddBackports)
     taskset.update([tasks.AddONEContextPackage])
+
+# vi: ts=4 expandtab

@@ -29,3 +29,5 @@ def test_manifest_generator():
     for manifest_path in manifest_paths:
         validate_manifest.description = "Validating %s" % os.path.relpath(manifest_path, manifests)
         yield validate_manifest, manifest_path
+
+# vi: ts=4 expandtab

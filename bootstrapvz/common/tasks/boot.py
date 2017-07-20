@@ -50,3 +50,5 @@ class DisableGetTTYs(Task):
             logind_asset_path = os.path.join(assets, 'systemd/logind.conf')
             logind_destination = os.path.join(info.root, 'etc/systemd/logind.conf')
             copy(logind_asset_path, logind_destination)
+
+# vi: ts=4 expandtab

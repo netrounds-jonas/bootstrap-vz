@@ -15,3 +15,5 @@ class AddONEContextPackage(Task):
         if info.manifest.release == wheezy:
             target = '{system.release}-backports'
         info.packages.add('opennebula-context', target)
+
+# vi: ts=4 expandtab

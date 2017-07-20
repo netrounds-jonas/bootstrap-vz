@@ -36,3 +36,5 @@ class CopyChefAssets(Task):
     def run(cls, info):
         from bootstrapvz.common.tools import copy_tree
         copy_tree(info.manifest.plugins['chef']['assets'], os.path.join(info.root, 'etc/chef'))
+
+# vi: ts=4 expandtab

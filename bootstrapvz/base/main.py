@@ -142,3 +142,5 @@ def run(manifest, debug=False, pause_on_error=False, dry_run=False):
         log.info('Successfully completed rollback')
         raise
     return bootstrap_info
+
+# vi: ts=4 expandtab

@@ -60,3 +60,5 @@ class AptAutoremoveSuggests(Task):
     def run(cls, info):
         shutil.copy(os.path.join(assets, 'apt-autoremove-suggests'),
                     os.path.join(info.root, 'etc/apt/apt.conf.d/20autoremove-suggests'))
+
+# vi: ts=4 expandtab

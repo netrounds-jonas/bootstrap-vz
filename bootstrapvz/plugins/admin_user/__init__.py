@@ -29,3 +29,5 @@ def resolve_tasks(taskset, manifest):
                     tasks.CreateAdminUser,
                     tasks.PasswordlessSudo,
                     ])
+
+# vi: ts=4 expandtab

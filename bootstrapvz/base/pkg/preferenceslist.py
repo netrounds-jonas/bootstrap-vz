@@ -40,3 +40,5 @@ class Preference(object):
         :rtype: str
         """
         return "Package: {package}\nPin: {pin}\nPin-Priority: {pin-priority}\n".format(**self.preference)
+
+# vi: ts=4 expandtab

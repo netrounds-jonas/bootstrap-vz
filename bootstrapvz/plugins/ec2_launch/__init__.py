@@ -10,3 +10,5 @@ def resolve_tasks(taskset, manifest):
         taskset.add(tasks.PrintPublicIPAddress)
     if manifest.plugins['ec2_launch'].get('deregister_ami', False):
         taskset.add(tasks.DeregisterAMI)
+
+# vi: ts=4 expandtab

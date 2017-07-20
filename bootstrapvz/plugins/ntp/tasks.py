@@ -30,3 +30,5 @@ class SetNtpServers(Task):
                     print 'server {server_address} iburst'.format(server_address=servers.pop(0))
             else:
                 print line,
+
+# vi: ts=4 expandtab

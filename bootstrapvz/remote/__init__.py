@@ -106,3 +106,5 @@ def get_class_object(fq_classname):
     import importlib
     imported_module = importlib.import_module(module_name)
     return getattr(imported_module, class_name)
+
+# vi: ts=4 expandtab

@@ -15,3 +15,5 @@ class MSDOSSwapPartition(MSDOSPartition):
 
     def _before_format(self, e):
         log_check_call(['mkswap', self.device_path])
+
+# vi: ts=4 expandtab

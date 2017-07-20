@@ -31,3 +31,5 @@ class CheckExternalCommands(Task):
         if len(missing_packages) > 0:
             msg = '\n'.join(missing_packages)
             raise TaskError(msg)
+
+# vi: ts=4 expandtab

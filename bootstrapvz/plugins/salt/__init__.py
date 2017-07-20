@@ -11,3 +11,5 @@ def resolve_tasks(taskset, manifest):
     taskset.add(tasks.BootstrapSaltMinion)
     if 'grains' in manifest.plugins['salt']:
         taskset.add(tasks.SetSaltGrains)
+
+# vi: ts=4 expandtab

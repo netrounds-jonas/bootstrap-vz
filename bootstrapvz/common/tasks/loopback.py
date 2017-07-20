@@ -30,3 +30,5 @@ class Create(Task):
         import os.path
         image_path = os.path.join(info.workspace, 'volume.' + info.volume.extension)
         info.volume.create(image_path)
+
+# vi: ts=4 expandtab

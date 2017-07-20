@@ -121,3 +121,5 @@ class EnableModules(Task):
                     if int(entry['position']) == int(count):
                         print(" - %s" % entry['module'])
                     print line,
+
+# vi: ts=4 expandtab

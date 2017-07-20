@@ -79,3 +79,5 @@ class Connect(Task):
                                                 info.credentials['access-key'],
                                                 info.credentials['secret-key'])
         info._ec2['connection'] = boto3.client('ec2', region_name=info._ec2['region'])
+
+# vi: ts=4 expandtab

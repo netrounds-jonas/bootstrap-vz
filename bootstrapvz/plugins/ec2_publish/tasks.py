@@ -94,3 +94,5 @@ class PublishAmi(Task):
                 time.sleep(5)
                 current_image = conn.get_image(region_ami)
             conn.modify_image_attribute(region_ami, attribute='launchPermission', operation='add', groups='all')
+
+# vi: ts=4 expandtab

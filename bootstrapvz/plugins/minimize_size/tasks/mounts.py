@@ -42,3 +42,5 @@ class RemoveFolderMounts(Task):
 
         os.rmdir(info._minimize_size['foldermounts'])
         del info._minimize_size['foldermounts']
+
+# vi: ts=4 expandtab

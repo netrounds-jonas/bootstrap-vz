@@ -16,3 +16,5 @@ class ConfigureGrub(Task):
         from bootstrapvz.common.releases import stretch
         if info.manifest.release >= stretch:
             info.grub_config['GRUB_CMDLINE_LINUX'].append('scsi_mod.use_blk_mq=Y')
+
+# vi: ts=4 expandtab

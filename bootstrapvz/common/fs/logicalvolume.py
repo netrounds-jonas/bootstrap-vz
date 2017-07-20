@@ -36,3 +36,5 @@ class LogicalVolume(Volume):
     def delete(self):
         log_check_call(['lvremove', '-f', self.image_path])
         del self.image_path
+
+# vi: ts=4 expandtab

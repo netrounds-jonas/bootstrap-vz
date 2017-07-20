@@ -146,3 +146,5 @@ class DeleteBootstrapFilterScripts(Task):
         os.remove(info._minimize_size['filter_script'])
         del info._minimize_size['filter_script']
         os.remove(info.bootstrap_script)
+
+# vi: ts=4 expandtab

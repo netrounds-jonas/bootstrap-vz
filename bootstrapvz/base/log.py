@@ -102,3 +102,5 @@ class FileFormatter(SourceFormatter):
     """
     def format(self, record):
         return super(FileFormatter, self).format(record)
+
+# vi: ts=4 expandtab

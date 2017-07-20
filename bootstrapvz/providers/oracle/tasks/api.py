@@ -17,3 +17,5 @@ class Connect(Task):
         )
         # Try to fetch the token, so it will fail early if the credentials are wrong
         info._oracle['client'].auth_token
+
+# vi: ts=4 expandtab

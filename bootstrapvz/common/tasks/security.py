@@ -10,3 +10,5 @@ class EnableShadowConfig(Task):
     def run(cls, info):
         from ..tools import log_check_call
         log_check_call(['chroot', info.root, 'shadowconfig', 'on'])
+
+# vi: ts=4 expandtab

@@ -87,3 +87,5 @@ class DeregisterAMI(Task):
             info._ec2['snapshot'].delete()
         else:
             logger.error('Timeout while booting instance')
+
+# vi: ts=4 expandtab

@@ -52,3 +52,5 @@ class ConfigureNetworkIF(Task):
         interfaces_path = os.path.join(info.root, 'etc/network/interfaces')
         with open(interfaces_path, 'a') as interfaces:
             interfaces.write(if_config + '\n')
+
+# vi: ts=4 expandtab

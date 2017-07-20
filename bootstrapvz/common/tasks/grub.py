@@ -337,3 +337,5 @@ class InstallGrub_2(Task):
     def run(cls, info):
         log_check_call(['chroot', info.root, 'grub-install', info.volume.device_path])
         log_check_call(['chroot', info.root, 'update-grub'])
+
+# vi: ts=4 expandtab

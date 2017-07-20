@@ -157,3 +157,5 @@ class Bytes(object):
 
     def __setstate__(self, state):
         self.qty = state['qty']
+
+# vi: ts=4 expandtab

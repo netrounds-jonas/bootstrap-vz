@@ -131,3 +131,5 @@ class OracleStorageAPIClient:
                 self._fail(response.text)
             n += 1
         self.create_manifest()
+
+# vi: ts=4 expandtab

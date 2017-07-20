@@ -38,3 +38,5 @@ def test_log_call_output_order():
                       'three',
                       ]
     eq_(expected_order, logged.getvalue().split("\n")[8:-1])
+
+# vi: ts=4 expandtab

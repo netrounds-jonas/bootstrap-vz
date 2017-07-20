@@ -53,3 +53,5 @@ def run_instance(image, instance_name, manifest):
             instance.shutdown()
     finally:
         instance.destroy()
+
+# vi: ts=4 expandtab

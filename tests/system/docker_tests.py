@@ -27,3 +27,5 @@ def test_stable():
     manifest_data = merge_manifest_data(std_partials, custom_partials)
     with boot_manifest(manifest_data) as instance:
         print('\n'.join(instance.run(['echo', 'test'])))
+
+# vi: ts=4 expandtab

@@ -10,3 +10,5 @@ class SourceError(Exception):
     """Raised when an error occurs while handling the sourceslist
     """
     pass
+
+# vi: ts=4 expandtab

@@ -47,3 +47,5 @@ class UnmapPartitions(Task):
     @classmethod
     def run(cls, info):
         info.volume.partition_map.unmap(info.volume)
+
+# vi: ts=4 expandtab

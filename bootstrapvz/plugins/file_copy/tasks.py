@@ -70,3 +70,5 @@ class FileCopyCommand(Task):
                 shutil.copytree(src_path, final_destination)
 
             modify_path(info, file_entry['dst'], file_entry)
+
+# vi: ts=4 expandtab

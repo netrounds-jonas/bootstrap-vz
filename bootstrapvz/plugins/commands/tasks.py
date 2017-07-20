@@ -13,3 +13,5 @@ class ImageExecuteCommand(Task):
             command = map(lambda part: part.format(root=info.root, **info.manifest_vars), raw_command)
             shell = len(command) == 1
             log_check_call(command, shell=shell)
+
+# vi: ts=4 expandtab

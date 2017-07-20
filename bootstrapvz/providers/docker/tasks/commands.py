@@ -11,3 +11,5 @@ class AddRequiredCommands(Task):
     @classmethod
     def run(cls, info):
         info.host_dependencies['docker'] = 'docker.io'
+
+# vi: ts=4 expandtab

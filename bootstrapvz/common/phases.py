@@ -28,3 +28,5 @@ order = [validation,
          image_registration,
          cleaning,
          ]
+
+# vi: ts=4 expandtab

@@ -14,3 +14,5 @@ class AddBaselineAptCache(Task):
     @classmethod
     def run(cls, info):
         log_check_call(['chroot', info.root, 'apt-get', 'update'])
+
+# vi: ts=4 expandtab

@@ -158,3 +158,5 @@ class DictClass(dict):
     def __setstate__(self, state):
         for key in state:
             self[key] = state[key]
+
+# vi: ts=4 expandtab

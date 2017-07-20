@@ -9,3 +9,5 @@ def resolve_tasks(taskset, manifest):
     import tasks
     taskset.add(tasks.AddUnattendedUpgradesPackage)
     taskset.add(tasks.EnablePeriodicUpgrades)
+
+# vi: ts=4 expandtab

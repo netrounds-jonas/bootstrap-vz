@@ -128,3 +128,5 @@ def test_gpt_grub_unstable():
     boot_vars = {'instance_type': 't2.micro'}
     with boot_manifest(manifest_data, boot_vars) as instance:
         print(instance.get_console_output().output)
+
+# vi: ts=4 expandtab

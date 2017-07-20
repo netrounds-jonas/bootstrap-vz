@@ -112,3 +112,5 @@ class InstallExtlinuxJessie(Task):
         log_check_call(['chroot', info.root,
                         'extlinux',
                         '--install', '/boot/extlinux'])
+
+# vi: ts=4 expandtab

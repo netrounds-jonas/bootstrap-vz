@@ -22,3 +22,5 @@ class Folder(Volume):
         from shutil import rmtree
         rmtree(self.path)
         del self.path
+
+# vi: ts=4 expandtab

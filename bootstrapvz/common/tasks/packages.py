@@ -109,3 +109,5 @@ class AddTaskselStandardPackages(Task):
         tasksel_packages = log_check_call(['chroot', info.root, 'tasksel', '--task-packages', 'standard'])
         for pkg in tasksel_packages:
             info.packages.add(pkg)
+
+# vi: ts=4 expandtab

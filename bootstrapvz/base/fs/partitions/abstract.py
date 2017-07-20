@@ -134,3 +134,5 @@ class AbstractPartition(FSMProxy):
         if self.fsm.current == 'mounted':
             self.mounts[destination].unmount()
         del self.mounts[destination]
+
+# vi: ts=4 expandtab

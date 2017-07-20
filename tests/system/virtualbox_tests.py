@@ -108,3 +108,5 @@ def test_gpt_grub_unstable():
     manifest_data = merge_manifest_data(std_partials, custom_partials)
     with boot_manifest(manifest_data) as instance:
         print(instance.console_output)
+
+# vi: ts=4 expandtab

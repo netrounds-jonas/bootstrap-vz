@@ -13,3 +13,5 @@ class DebconfSetSelections(Task):
     def run(cls, info):
         log_check_call(['chroot', info.root, 'debconf-set-selections'],
                        stdin=info.manifest.plugins['debconf'])
+
+# vi: ts=4 expandtab

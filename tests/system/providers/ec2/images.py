@@ -25,3 +25,5 @@ class S3Image(AmazonMachineImage):
         log.debug('Deleting AMI')
         self.ami.deregister()
         del self.ami
+
+# vi: ts=4 expandtab

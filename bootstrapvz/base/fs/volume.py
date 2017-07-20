@@ -134,3 +134,5 @@ class Volume(FSMProxy):
         del self.unlinked_device_path
         del self.dm_node_name
         del self.dm_node_path
+
+# vi: ts=4 expandtab

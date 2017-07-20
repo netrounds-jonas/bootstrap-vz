@@ -12,3 +12,5 @@ def resolve_tasks(taskset, manifest):
     ami_public = manifest.plugins['ec2_publish'].get('public')
     if ami_public:
         taskset.add(tasks.PublishAmi)
+
+# vi: ts=4 expandtab

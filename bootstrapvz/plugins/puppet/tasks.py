@@ -154,3 +154,5 @@ class EnableAgent(Task):
     def run(cls, info):
         puppet_defaults = os.path.join(info.root, 'etc/defaults/puppet')
         sed_i(puppet_defaults, 'START=no', 'START=yes')
+
+# vi: ts=4 expandtab

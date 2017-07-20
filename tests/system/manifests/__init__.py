@@ -52,3 +52,5 @@ def merge_dicts(*args):
                 a[key] = clone(b[key])
         return a
     return reduce(merge, args, {})
+
+# vi: ts=4 expandtab

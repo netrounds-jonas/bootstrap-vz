@@ -44,3 +44,5 @@ def getNPorts(n, port_range=(1024, 65535)):
                 ports.append(port)
                 break
     return ports
+
+# vi: ts=4 expandtab

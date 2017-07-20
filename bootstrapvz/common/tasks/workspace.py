@@ -20,3 +20,5 @@ class DeleteWorkspace(Task):
     def run(cls, info):
         import os
         os.rmdir(info.workspace)
+
+# vi: ts=4 expandtab

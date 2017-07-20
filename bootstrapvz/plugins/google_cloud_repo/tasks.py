@@ -47,3 +47,5 @@ class CleanupBootstrapRepoKey(Task):
     @classmethod
     def run(cls, info):
         os.remove(os.path.join(info.root, 'etc', 'apt', 'trusted.gpg'))
+
+# vi: ts=4 expandtab

@@ -155,3 +155,5 @@ AUTOINSTALL="yes"
             log_check_call(['chroot', info.root,
                             'dkms', task, '-m', 'amzn-drivers', '-v', version,
                             '-k', info.kernel_version])
+
+# vi: ts=4 expandtab

@@ -112,3 +112,5 @@ class ShredHostkeys(Task):
         from ..tools import log_check_call
         log_check_call(['shred', '--remove'] + [key for key in private + public
                                                 if os.path.isfile(key)])
+
+# vi: ts=4 expandtab

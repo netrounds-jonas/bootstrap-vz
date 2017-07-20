@@ -8,3 +8,5 @@ def validate_manifest(data, validator, error):
 def resolve_tasks(taskset, manifest):
     from tasks import ImageExecuteCommand
     taskset.add(ImageExecuteCommand)
+
+# vi: ts=4 expandtab

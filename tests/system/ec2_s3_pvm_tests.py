@@ -40,3 +40,5 @@ def test_unpartitioned_unstable():
     boot_vars = {'instance_type': 'm1.small'}
     with boot_manifest(manifest_data, boot_vars) as instance:
         print(instance.get_console_output().output)
+
+# vi: ts=4 expandtab

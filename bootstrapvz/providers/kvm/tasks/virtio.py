@@ -14,3 +14,5 @@ class VirtIO(Task):
             modules_file.write("\n")
             for module in info.manifest.provider.get('virtio', []):
                 modules_file.write(module + "\n")
+
+# vi: ts=4 expandtab

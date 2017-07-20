@@ -68,3 +68,5 @@ Options:
   -h, --help          show this help
     """
     return docopt(usage)
+
+# vi: ts=4 expandtab

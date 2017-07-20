@@ -80,3 +80,5 @@ if __name__ == '__main__' and __package__ is None:
 
     data = generate_graph_data()
     write_data(data, opts.get('--output', None))
+
+# vi: ts=4 expandtab

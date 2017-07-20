@@ -42,3 +42,5 @@ as well as supporting a high degree of customizability through plugins.''',
       author_email='anders@ingemann.de',
       url='http://www.github.com/andsens/bootstrap-vz',
       )
+
+# vi: ts=4 expandtab

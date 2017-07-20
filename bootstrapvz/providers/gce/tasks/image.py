@@ -55,3 +55,5 @@ class RegisterImage(Task):
                         'images', 'create', info._gce['image_name'],
                         '--source-uri=' + info.manifest.provider['gcs_destination'] + info._gce['tarball_name'],
                         '--description=' + image_description])
+
+# vi: ts=4 expandtab

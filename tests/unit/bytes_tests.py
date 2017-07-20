@@ -106,3 +106,5 @@ def test_imod_int():
 
 def test_convert_int():
     eq_(pow(1024, 3), int(Bytes('1GiB')))
+
+# vi: ts=4 expandtab

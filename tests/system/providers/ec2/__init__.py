@@ -137,3 +137,5 @@ def create_env(ec2_connection, vpc_connection):
 
 class EC2InstanceStartupException(Exception):
     pass
+
+# vi: ts=4 expandtab

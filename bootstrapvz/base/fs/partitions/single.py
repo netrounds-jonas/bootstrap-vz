@@ -13,3 +13,5 @@ class SinglePartition(AbstractPartition):
         """
         from bootstrapvz.common.sectors import Sectors
         return Sectors(0, self.size.sector_size)
+
+# vi: ts=4 expandtab

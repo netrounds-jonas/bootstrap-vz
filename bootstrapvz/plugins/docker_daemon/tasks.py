@@ -116,3 +116,5 @@ class PullDockerImages(Task):
             # shutdown docker daemon.
             daemon.terminate()
             os.remove(os.path.join(info.workspace, 'docker.sock'))
+
+# vi: ts=4 expandtab

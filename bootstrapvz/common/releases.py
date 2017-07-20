@@ -67,3 +67,5 @@ def get_release(release_name):
 
 class UnknownReleaseException(Exception):
     pass
+
+# vi: ts=4 expandtab

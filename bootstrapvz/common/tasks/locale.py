@@ -72,3 +72,5 @@ class SetLocalTimeCopy(Task):
         zoneinfo_path = os.path.join(info.root, '/usr/share/zoneinfo', timezone)
         localtime_path = os.path.join(info.root, 'etc/localtime')
         copy(zoneinfo_path, localtime_path)
+
+# vi: ts=4 expandtab

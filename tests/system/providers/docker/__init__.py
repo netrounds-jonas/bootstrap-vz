@@ -55,3 +55,5 @@ def boot_image(manifest, build_server, bootstrap_info):
         if image_id is not None:
             log.debug('Deleting image')
             log_check_call(['docker', 'rmi', image_id], env=docker_env)
+
+# vi: ts=4 expandtab

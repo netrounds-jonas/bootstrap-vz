@@ -33,3 +33,5 @@ class ConfigureGrub(Task):
             'earlyprintk=ttyS0,115200',
             'rootdelay=300',
         ])
+
+# vi: ts=4 expandtab

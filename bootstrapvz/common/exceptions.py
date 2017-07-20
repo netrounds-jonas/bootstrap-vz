@@ -36,3 +36,5 @@ class UnexpectedNumMatchesError(Exception):
 
 class UnitError(Exception):
     pass
+
+# vi: ts=4 expandtab

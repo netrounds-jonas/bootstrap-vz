@@ -47,3 +47,5 @@ def load_volume(data, bootloader):
 
     # Create the volume with the partition map as an argument
     return volume_backing(partition_map)
+
+# vi: ts=4 expandtab

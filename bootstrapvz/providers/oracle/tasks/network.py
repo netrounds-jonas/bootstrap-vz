@@ -11,3 +11,5 @@ class InstallDHCPCD(Task):
         info.packages.add('dhcpcd5')
         info.exclude_packages.add('isc-dhcp-client')
         info.exclude_packages.add('isc-dhcp-common')
+
+# vi: ts=4 expandtab

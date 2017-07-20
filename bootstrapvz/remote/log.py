@@ -21,3 +21,5 @@ class LogForwarder(logging.Handler):
             # TODO: Use serpent instead
             import pickle
             self.server.handle_log(pickle.dumps(record))
+
+# vi: ts=4 expandtab

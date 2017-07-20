@@ -11,3 +11,5 @@ def resolve_tasks(taskset, manifest):
     taskset.discard(ssh.DisableSSHPasswordAuthentication)
     taskset.add(ssh.EnableRootLogin)
     taskset.add(SetRootPassword)
+
+# vi: ts=4 expandtab

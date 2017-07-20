@@ -44,3 +44,5 @@ def test_alias():
 @raises(releases.UnknownReleaseException)
 def test_bogus_releasename():
     releases.get_release('nemo')
+
+# vi: ts=4 expandtab

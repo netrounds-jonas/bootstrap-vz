@@ -15,3 +15,5 @@ class GatherReleaseInformation(Task):
         info._gce['lsb_distribution'] = lsb_distribution[0]
         info._gce['lsb_description'] = lsb_description[0]
         info._gce['lsb_release'] = lsb_release[0]
+
+# vi: ts=4 expandtab

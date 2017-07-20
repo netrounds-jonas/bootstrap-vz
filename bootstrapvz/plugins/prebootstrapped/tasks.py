@@ -121,3 +121,5 @@ def set_fs_states(volume):
                 partition.fsm.current = 'formatted'
                 continue
             partition.fsm.current = 'unmapped_fmt'
+
+# vi: ts=4 expandtab

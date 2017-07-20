@@ -30,3 +30,5 @@ class AddWorkaroundGrowpart(Task):
         src = os.path.join(assets, 'bin/growpart')
         dst = os.path.join(info.root, 'usr/bin/growpart-workaround')
         copy(src, dst)
+
+# vi: ts=4 expandtab

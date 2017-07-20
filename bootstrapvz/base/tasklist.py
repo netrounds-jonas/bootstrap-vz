@@ -299,3 +299,5 @@ def topological_sort(graph):
                 ready.append(successor)
 
     return result
+
+# vi: ts=4 expandtab

@@ -106,3 +106,5 @@ class PackageList(object):
         """
         package_path = package_path.format(**self.manifest_vars)
         self.install.append(self.Local(package_path))
+
+# vi: ts=4 expandtab

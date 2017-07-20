@@ -85,3 +85,5 @@ class AdjustGrowpartWorkaround(Task):
         from ..tools import sed_i
         script = os.path.join(info.root, 'etc/init.d/expand-root')
         sed_i(script, '^growpart="growpart"$', 'growpart-workaround')
+
+# vi: ts=4 expandtab

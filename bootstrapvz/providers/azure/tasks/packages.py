@@ -52,3 +52,5 @@ class Waagent(Task):
         from bootstrapvz.common.tools import sed_i
         useradd_config = os.path.join(info.root, 'etc/default/useradd')
         sed_i(useradd_config, r'^(SHELL=.*)', r'SHELL=/bin/bash')
+
+# vi: ts=4 expandtab

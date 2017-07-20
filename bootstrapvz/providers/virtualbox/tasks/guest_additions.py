@@ -83,3 +83,5 @@ class InstallGuestAdditions(Task):
         root.remove_mount(mount_path)
         os.rmdir(mount_path)
         os.remove(install_wrapper_path)
+
+# vi: ts=4 expandtab

@@ -245,3 +245,5 @@ class FStab(Task):
         with open(fstab_path, 'w') as fstab:
             fstab.write('\n'.join(fstab_lines))
             fstab.write('\n')
+
+# vi: ts=4 expandtab
