@@ -19,7 +19,7 @@ class RemoveMirrors(Task):
         types = dict(
                 default='{apt_mirror}\s+{system.release}\s+',
                 updates='{apt_mirror}\s+{system.release}-updates\s+',
-                security='{apt_mirror}\s+{system.release}-updates\s+')
+                security='http://security.debian.org/\s+{system.release}/updates')
 
         for t in types:
             types[t] = types[t].format(**source_lists.manifest_vars)
@@ -42,12 +42,9 @@ class RemoveMirrors(Task):
             i = 0
             while i < len(source_list):
                 source = source_list[i]
-                print(search_mirror)
-                print(str(source))
                 if match(search_mirror, str(source)):
                     del source_list[i]
                 else:
                     i += 1
             
-
 # vi: ts=4 expandtab
