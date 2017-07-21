@@ -1,0 +1,22 @@
+---
+$schema: http://json-schema.org/draft-04/schema#
+title: Ignore specifc main/non-free mirrors updates or what not
+type: object
+properties:
+  plugins:
+    type: object
+    properties:
+      remove_updates:
+        type: object
+        properties:
+          ignore:
+            items:
+              items:
+                type: string
+              minItems: 1
+              type: string
+            minItems: 1
+            type: array
+        required: [ignore]
+        additionalProperties: false
+    required: [remove_updates]

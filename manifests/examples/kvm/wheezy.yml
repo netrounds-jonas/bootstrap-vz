@@ -27,3 +27,6 @@ packages: {}
 plugins:
   root_password:
     password: test
+  remove_updates:
+    ignore:
+      - main:updates
