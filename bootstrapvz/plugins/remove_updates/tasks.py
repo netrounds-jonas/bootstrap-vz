@@ -29,7 +29,7 @@ class RemoveMirrors(Task):
             if len(ops) != 2:
                 continue
 
-            search_mirror = 'deb(\-src)?\s+'
+            search_mirror = '^deb(\-src)?\s+'
             key = ops[0]
             t = ops[1]
             
